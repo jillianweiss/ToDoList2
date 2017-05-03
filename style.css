@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css?family=Bree+Serif|Open+Sans');
+
+body{
+  background-color: rgb(220, 220, 220);
+  min-width: 400px;
+
+}
+
+main{
+  text-align: center;
+  margin: 0 auto;
+  width: 50%;
+  padding-bottom: 100px;
+  background-color: white;
+  box-shadow: 0px 0px 13px 5px rgba(0,0,0,0.35);
+
+}
+h1{
+  font-family: 'Bree Serif', serif;
+  text-align: center;
+  font-size: 40px;
+}
+
+h2{
+  font-family: 'Bree Serif', serif;
+  text-align: center;
+  font-size: 18px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+p{
+  font-family: 'Bree Serif', serif;
+  font-size: 18px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+ul{
+  margin: auto;
+  width: 50%;
+  list-style-type: none;
+  padding-left: 0;
+}
+
+li{
+  background-color: rgb(220, 220, 220);
+  font-family: 'Open Sans', sans-serif;
+  font-size: 20px;
+  border-style: solid;
+  border-width: thin;
+  margin-bottom: 4px;
+}
+
+li:hover{
+  background-color: rgb(172, 225, 229);
+  cursor: pointer;
+
+}
+
+form{
+  text-align: center;
+  margin-bottom: 20px;
+  min-width: 300px;
+}
+
+
+
+button{
+  border-radius: 10%;
+  font-family: 'Bree Serif', serif;
+  font-size: 15px;
+}
+button:hover{
+  cursor: pointer;
+}
+
+#input{
+  height: 25px;
+  width: 200px;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 15px;
+}
+
+#listArea{
+  margin-top: 30px;
+}

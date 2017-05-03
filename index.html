@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <title>To-Do List</title>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script>
+    $(document).ready(function(){
+      $("h2").hide();
+      $("button").click(function(){
+        $(this).closest('form').find("input[type=text], textarea").val("");
+        $("h2").show();
+      });
+    });
+  </script>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <main>
+    <h1>To-Do List</h1>
+
+    <form id="toDoForm">
+      <input id="input" type="text" placeholder="Enter a Task">
+      <button id="button" type="button">Add Item</button>
+    </form>
+
+    <div id="instructions">
+      <h2>Click on a task when you have completed it.</h2>
+    </div>
+    <p id="message">You have 0 task(s) to complete.</p>
+
+    <div id="listArea">
+      <ul id="incompleteTasks"></ul>
+    </div>
+</main>
+
+
+<script src="todo.js"></script>
+
+
+</body>
+</html>
